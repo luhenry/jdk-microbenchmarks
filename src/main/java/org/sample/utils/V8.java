@@ -1,10 +1,10 @@
 
-package org.sample;
+package org.sample.utils;
 
 import org.openjdk.jmh.infra.Blackhole;
 
-class A5 extends A {
+public class V8 extends V {
     public void foo(int i, Blackhole blackhole) {
-        blackhole.consume(i + 5);
+        blackhole.consume(i + 8);
     }
 }

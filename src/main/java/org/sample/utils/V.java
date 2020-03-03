@@ -1,8 +1,8 @@
 
-package org.sample;
+package org.sample.utils;
 
 import org.openjdk.jmh.infra.Blackhole;
 
-abstract class A {
+public abstract class V {
     public abstract void foo(int i, Blackhole blackhole);
 }
